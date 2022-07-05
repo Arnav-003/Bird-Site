@@ -1,0 +1,118 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+  }
+  
+.logo-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    background-color:  hsl(215, 28%, 17%);
+    align-items: center;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 12px;
+}
+a:hover {
+    color: lightskyblue;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+#information{
+    text-align: center;
+    font-weight: 900;
+    font-size: xx-large;
+    padding: 30px;
+}
+.intro-image{
+    width: 400px;
+    height: 400px;
+    border-radius:3rem;
+}
+.intro{
+    display: flex;
+    background-color: hsl(216, 26%, 26%);
+    color: white;
+    padding: 18px;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.text{
+    width: 600px;
+    height: auto;
+}
+#intro-sign-up{
+background-color: royalblue;
+padding: 10px 24px;
+border-radius: 18px;
+border: 0px;
+color: white;
+}
+img{
+    width: 250px;
+    height: 300px;
+}
+.information{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-line{
+    width: 250px;
+    height: auto;
+    padding-left: 15px;
+}
+.card{
+    border: 5px solid  rgb(94, 134, 255);
+    border-radius: 10px;
+}
+.quote{
+    background-color: #e5e7eb;
+    font-weight: 36px;
+    color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    padding: 50px 250px;
+    margin-top: 18px;
+}
+.quoter{
+    text-align: end;
+}
+.sign-up{
+    display: flex;
+    background-color: rgb(94, 134, 255);
+    width: 450px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin: 40px 350px;
+    border-radius: 10px;
+    padding: 5%;
+}
+#bold-line{
+    font-weight: 900;
+}
+#Sign-up{
+    background-color: royalblue;
+    border-radius: 18px;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 25px;
+}
